@@ -6,7 +6,7 @@ num=false;
 console.log(num);
 console.log(typeof(num));
 
-num="Khushi Srivastava";
+num="Mahi Arora";
 console.log(num);
 console.log(typeof(num));
 
