@@ -1,0 +1,1 @@
+var add3 =(a,b) => console.log(a+b);
