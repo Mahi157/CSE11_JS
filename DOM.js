@@ -14,3 +14,17 @@ const res=document.getElementsByTagName("p");
 res[2].innerHTML="<b>this is a pet</b>";
 res[1].style.color="blue";
 res[1].innerText="<b>my paragraph</b>";
+
+//query selector
+// const res1=document.querySelector("ul li:nth-child(3)");
+// res1.style.backgroundColor = "green";
+// res1.style.padding = "10px";
+// res1.style.margin="20px";
+
+//query selector All
+const res2 = document.querySelectorAll("ul li");
+for (x in res2 ) {
+    res2[x].style.backgroundColor = "green";
+    res2[x].style.margin = "10px";
+    res2[x].style.color = "blue";
+}
