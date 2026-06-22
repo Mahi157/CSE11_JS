@@ -41,38 +41,38 @@
 // // //  let element = getElementById("demo");
 // // //  element.style.color="blue";
 
-// function onClick() {
-//     console.log("clicked");
+function onClick() {
+    console.log("clicked");
 
-// }
+}
 
-// function onMouseOver() {
-//     console.log("on Mouse Over");
+function onMouseOver() {
+    console.log("on Mouse Over");
 
-// }
+}
 
-// function onMouseOut() {
-//     console.log("on Mouse Out");
+function onMouseOut() {
+    console.log("on Mouse Out");
 
-// }
+}
 
-// function onMouseUp() {
-//     console.log("on Mouse Up");
+function onMouseUp() {
+    console.log("on Mouse Up");
 
-// }
-// function onMouseDown() {
-//     console.log("on Mouse Down");
+}
+function onMouseDown() {
+    console.log("on Mouse Down");
 
-// }
-// function onMouseMove() {
-//     console.log("on Mouse Move");
+}
+function onMouseMove() {
+    console.log("on Mouse Move");
 
 // }
 
  var text ='{"employees":['+'{"firstName":"John","lastName":"Doe"},'
  +'{"firstName":"Anna","lastName":"Smith"},'+'{"firstName":"Peter","lastName":"Jones"}]}';
 
-//  obj=JSON.parse(text);
+ obj=JSON.parse(text);
  document.getElementById("demo").innerHTML=obj.employees[1].firstName+"" +obj.employees[1].lastName;
 
  test.style.backgroundColor = "green";
