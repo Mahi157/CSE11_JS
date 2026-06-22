@@ -75,7 +75,7 @@
  obj=JSON.parse(text);
  document.getElementById("demo").innerHTML=obj.employees[1].firstName+"" +obj.employees[1].lastName;
 
-
+ test.style.backgroundColor = "green";
 
 // const x= document.querySelector('input');
 //  x.addEventListener('focus',onhandlefocus);
