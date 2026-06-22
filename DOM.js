@@ -84,3 +84,8 @@
  function onLoad() {
     alert("Window Loaded Successfully");
  }
+
+ function onHandleBlur() {
+    x.style.background = "yellow";
+    x.style.borderColor = "green";
+}
